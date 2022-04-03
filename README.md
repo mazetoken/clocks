@@ -1,3 +1,4 @@
 # clocks
 CLOCKS NFT on BitcoinCash smartBCH
-clocks.bch.is
+
+[Real-time animated CLOCKS NFTs](clocks.bch.is)
