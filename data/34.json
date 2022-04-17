@@ -1,8 +1,8 @@
 {
   "name": "xMIST Clock",
-  "description": "Real-time animated clocks. View it on https://clocksnft.herokuapp.com",
-  "image": "https://clocksnft.herokuapp.com/items/34.html",
-  "animation_url": "https://clocksnft.herokuapp.com/items/34.html",
+  "description": "Real-time animated clocks. View it on https://mazetoken.github.io/clocks",
+  "image": "https://mazetoken.github.io/clocks/items/img/xmist.png",
+  "animation_url": "https://mazetoken.github.io/clocks/items/34.html",
   "attributes": [
     {
       "trait_type": "Year",

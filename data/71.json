@@ -1,8 +1,8 @@
 {
   "name": "ZOMBIE Clock",
-  "description": "Real-time animated clocks. View it on https://clocksnft.herokuapp.com",
-  "image": "https://clocksnft.herokuapp.com/items/71.html",
-  "animation_url": "https://clocksnft.herokuapp.com/items/71.html",
+  "description": "Real-time animated clocks. View it on https://mazetoken.github.io/clocks",
+  "image": "https://mazetoken.github.io/clocks/items/img/zombie.png",
+  "animation_url": "https://mazetoken.github.io/clocks/items/71.html",
   "attributes": [
     {
       "trait_type": "Year",
