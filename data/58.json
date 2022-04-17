@@ -1,0 +1,25 @@
+{
+  "name": "xLNS Clock",
+  "description": "Real-time animated clocks. View it on https://clocksnft.herokuapp.com",
+  "image": "https://clocksnft.herokuapp.com/items/58.html",
+  "animation_url": "https://clocksnft.herokuapp.com/items/58.html",
+  "attributes": [
+    {
+      "trait_type": "Year",
+      "display_type": "number", 
+      "value": "2022"
+    },
+    {
+      "trait_type": "Type", 
+      "value": "Analog clock"
+    },
+    {
+      "trait_type": "Clock face", 
+      "value": "White"
+    },
+    {
+      "trait_type": "Background", 
+      "value": "Black"
+    }
+  ]
+}

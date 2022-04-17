@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="clocks nft, bitcoin cash, bch, smartBCH">
+	<!-- <link rel="icon" type="image/ico" sizes="32x32" href="img/favicon.ico"> -->
+    <title>CLOCKS NFT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU=" crossorigin="anonymous"></script>
+	<style>
+		div.frame{
+			width:25%;
+			height:25%;
+			align-content: center;
+		}
+	</style>
+  </head>
+
+  <body class="container">
+	<div class="form-check form-switch">
+		<label class="form-check-label" for="lightSwitch"></label>
+		<input class="form-check-input" type="checkbox" id="lightSwitch"/>
+	</div><br>
+
+    <h1 style="text-align:center">CLOCKS NFT</h1>
+	<p style="text-align:center">on Bitcoin Cash <a href="https://smartbch.org">smartBCH</a></p>
+	<br>
+	<div style="width: 384px; margin: 0 auto; overflow: hidden; text-align:center;">
+		<canvas id="canvas" width="384" height="384" style="background: url('./items/img/maze.png')"></canvas>
+	</div>
+	<br>
+
+	<div class="row" style="text-align:center">
+		<div>
+			<h3 class="sub-header">Real-time animated clocks</h3>
+			<p>Clocks NFTs are created for educational purposes. Clocks display the current time.<br>
+			   Part one - analog clocks:<br>
+			   - there are 10 NFTs of each kind with white clock face<br>
+			   (5 with white background and 5 with black background).<br>
+			   Part two - digital clocks:<br>
+			   - coming soon.
+			</p>
+			<br>
+			<p style="text-align:center">You must have MetaMask wallet configured for smartBCH (Bitcoin Cash side-chain).<br>
+			Refresh the page if it is not connected to MetaMask.<br>
+			MetaMask doesn`t display the animation url (canvas), so animated CLOCKS NFTs are not yet visible in the wallet app.<br>
+			You can view it here.
+			</p>
+			<br>
+			<button onclick="viewNFT()" class="btn-sm btn-secondary">Check CLOCKS NFTs</button>
+			<div id="lang"></div>
+			<br>
+			<div id="lang1"></div>
+			<br>
+			<input id="tokenId" type="text" size="10" placeholder="token ID">
+			<button onclick="viewNFT1()" class="btn-sm btn-secondary">View CLOCKS NFTs</button>
+			<div id="lang2"></div>
+			<br>
+			<div id="frame"></div>
+			<br>
+		</div>
+
+		<div>
+			<p>Analog Clocks NFTs tokens IDs as follows:<br>
+			BCH Clock: 0-10<br>
+			smartBCH Clock: 11-20<br>
+			MIST Clock: 21-30<br>
+			xMIST Clock: 31-40<br>
+			LNS Clock: 41-50<br>
+			xLNS Clock: 51-60<br>
+			MAZE Clock: 61-70<br>
+			ZOMBIE Clock: 71-80<br>
+			VANDALS Clock: 81-90<br>
+			</p>
+			<br>
+		</div>
+	</div>
+	
+	<p style="text-align:center">Contract address: 0x7E785284948348515ae8E9d5455Ca7D8b21717e1<br>
+	   NAME: CLOCKS | SYMBOL: CLOCKS<br><br>
+	   Credits:<br>
+	   Analog clocks <a href="https://w3schools.com/graphics/canvas_clock.asp">W3Schools Canvas Clock</a><br>
+	   BCH <a href="https://bitcoincash.org/graphics/">image</a><br>
+	   smartBCH <a href="https://github.com/smartbch/docs/tree/main/logo">image</a><br>
+	   MIST/xMIST <a href="https://github.com/mistswapdex/docs/tree/master/src/ecosystem/branding">images</a><br>
+	   LNS/xLNS <a href="https://github.com/bchdomains/art">images</a><br>
+	   Clocks NFTs are not related to BCH, smartBCH, MISTswap DEX and bch domains developers.
+	</p>
+	<br>
+
+	<p style="text-align:center">MAZE Tokens Underworld 2020-2022<br>
+	<a href="https://t.me/mazetokens"><img src="img/telegram.png" alt="Telegram" width="32" height="32"></a>
+	<a href="https://mazetoken.github.io"><img src="img/maze512.png" alt="MAZE" width="32" height="32"></a>
+	<a href="https://mazetoken.github.io/clocks"><img src="img/github.png" alt="Github" width="32" height="32"></a></p>
+	<br>
+
+	<script src="switch.js"></script>
+	<script src="clocks.js"></script>
+	<script src="web3.js"></script>
+	<script src="abi.js"></script>
+	<script src="functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
