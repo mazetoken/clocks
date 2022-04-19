@@ -3,6 +3,7 @@
   "description": "Real-time animated clocks. View it on https://mazetoken.github.io/clocks",
   "image": "https://mazetoken.github.io/clocks/items/img/bch.png",
   "animation_url": "https://mazetoken.github.io/clocks/items/0.html",
+  "external_url": "https://mazetoken.github.io/clocks",
   "attributes": [
     {
       "trait_type": "Year",
